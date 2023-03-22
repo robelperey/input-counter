@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(56, 56, 56);
+  padding: 20px 40px;
+  font-family: sans-serif;
+}
+
+form {
+  width: fit-content;
+  margin: 0 auto;
+  background-color: bisque;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  font: inherit;
+  margin-bottom: 15px;
+  background-color: bisque;
+  border: 1px solid black;
+  outline: none;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+div > span {
+  margin-left: 5px;
+}
+
+button {
+  font: inherit;
+  align-self: flex-start;
+  padding: 5px 15px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.input-warning {
+  background-color: rgb(255, 136, 136);
+  color: white;
+}
+
+.count-warning {
+  color: rgb(255, 0, 0);
+}
